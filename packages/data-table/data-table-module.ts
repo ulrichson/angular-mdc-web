@@ -1,7 +1,26 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-export const DATA_TABLE_DECLARATIONS = [
+import {MDCDataTable} from './data-table';
+import {
+  MDCDataTableCell,
+  MDCDataTableContent,
+  MDCDataTableHeader,
+  MDCDataTableHeaderCell,
+  MDCDataTableHeaderRow,
+  MDCDataTableRow,
+  MDCDataTableTable
+} from './data-table.directives';
+
+const DATA_TABLE_DECLARATIONS = [
+  MDCDataTable,
+  MDCDataTableCell,
+  MDCDataTableContent,
+  MDCDataTableHeader,
+  MDCDataTableHeaderCell,
+  MDCDataTableHeaderRow,
+  MDCDataTableRow,
+  MDCDataTableTable
 ];
 
 @NgModule({
@@ -9,4 +28,4 @@ export const DATA_TABLE_DECLARATIONS = [
   exports: DATA_TABLE_DECLARATIONS,
   declarations: DATA_TABLE_DECLARATIONS
 })
-export class MdcDataTableModule { }
+export class MdcDataTableModule {}
