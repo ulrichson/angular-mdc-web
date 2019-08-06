@@ -15,9 +15,9 @@ import {
   MdcDialog,
   MDC_DIALOG_DATA,
   MdcDialogModule,
-  MdcDialogRef,
-  OverlayContainer
+  MdcDialogRef
 } from '@angular-mdc/web';
+import { OverlayContainer } from '@angular/cdk/overlay';
 
 describe('MdcDialog Service', () => {
   let dialog: MdcDialog;
