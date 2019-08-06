@@ -57,6 +57,7 @@ export const rollupGlobals = {
 
   'focus-trap': 'focustrap',
 
+  '@angular/cdk': 'ng.cdk',
   '@angular/core': 'ng.core',
   '@angular/common': 'ng.common',
   '@angular/common/http': 'ng.common.http',
